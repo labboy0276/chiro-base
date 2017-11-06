@@ -3,7 +3,7 @@
 ```
 git clone git@github.com:labboy0276/chiro-base.git some-dir
 cd some-dir
-npm run deploy
+npm start
 ```
 
 # Composer template for Drupal projects

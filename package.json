@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "license": "GPL-2.0",
   "scripts": {
-    "predeploy": "npm i && composer install && cd web/profiles/chiro && composer install",
+    "start": "npm i && composer install && cd web/profiles/chiro && composer install",
+    "predeploy": "npm start",
     "deploy": "npm run deploy:removegit",
     "deploy:removegit": "find web/profiles/chiro/modules/contrib -type d -name '.git*' -exec rm -rf {} +"
   },
