@@ -1,0 +1,37 @@
+{
+    "name": "chiro",
+    "description": "Chiro Distribution",
+    "type": "drupal-profile",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "John Ouellet",
+            "email": "labboy0276@yahoo.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "libraries/{$name}": ["type:drupal-library"],
+            "modules/contrib/{$name}": ["type:drupal-module"],
+            "themes/contrib/{$name}": ["type:drupal-theme"],
+            "modules/custom/{$name}": ["type:drupal-custom-module"],
+            "themes/custom/{$name}": ["type:drupal-custom-theme"]
+        }
+    },
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal/config_readonly": "^1.0@beta",
+        "drupal/config_split": "^1.2"
+    },
+    "replace": {
+        "drupal/core": "*"
+    }
+}

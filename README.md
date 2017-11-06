@@ -1,9 +1,9 @@
 # To install from this repo
 
 ```
-git clone git@github.com:labboy0276/drupal-project.git some-dir
+git clone git@github.com:labboy0276/chiro-base.git some-dir
 cd some-dir
-composer install
+npm run deploy
 ```
 
 # Composer template for Drupal projects

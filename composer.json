@@ -1,6 +1,6 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "drupal-composer/chiro-base",
+    "description": "Composer base built of off the drupal-composer/drupal-project",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -63,13 +63,21 @@
         ]
     },
     "extra": {
+        "drupal-scaffold": {
+            "excludes": [
+                "sites/example.settings.local.php",
+                "sites/example.sites.php"
+            ]
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
+            "modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "web/drush/contrib/{$name}": ["type:drupal-drush"]
         }
     }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "@labboy0276/chiro-base",
+  "version": "0.0.1",
+  "license": "GPL-2.0",
+  "scripts": {
+    "predeploy": "npm i && composer install && cd web/profiles/chiro && composer install",
+    "deploy": "npm run deploy:removegit",
+    "deploy:removegit": "find web/profiles/chiro/modules/contrib -type d -name '.git*' -exec rm -rf {} +"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labboy0276/chiro-base.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0"
+  }
+}

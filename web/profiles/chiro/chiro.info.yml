@@ -1,0 +1,13 @@
+name: Chiro
+# core: 8.x
+type: profile
+description: 'The Chiro installation distribution.'
+
+distribution:
+  name: Chiro
+
+#dependencies:
+
+themes:
+  - seven
+
