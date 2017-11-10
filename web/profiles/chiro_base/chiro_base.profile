@@ -30,4 +30,10 @@ function chiro_base_admin_theme_setup(array &$install_state) {
     ->getEditable('system.theme')
     ->set('admin', 'adminimal_theme')
     ->save();
+
+  // Set the admin theme for edit and adding content.
+  \Drupal::configFactory()
+  ->getEditable('node.settings')
+  ->set('use_admin_theme', TRUE)
+  ->save();
 }
