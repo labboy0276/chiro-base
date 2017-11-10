@@ -7,8 +7,27 @@ distribution:
   name: Chiro
 
 dependencies:
-  - node
   - block
+  - block_content
+  - ckeditor
+  - config
+  - config_filter
+  - config_split
+  - contextual
+  - datetime
+  - field_layout
+  - field_ui
+  - file
+  - image
+  - layout_discovery
+  - link
+  - menu_ui
+  - node
+  - options
+  - path
+  - toolbar
+  - views
+  - views_ui
 
 themes:
   - adminimal_theme
