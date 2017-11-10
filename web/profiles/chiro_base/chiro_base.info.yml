@@ -6,7 +6,9 @@ description: 'The Chiro installation distribution.'
 distribution:
   name: Chiro
 
-#dependencies:
+dependencies:
+  - node
+  - block
 
 themes:
   - adminimal_theme
