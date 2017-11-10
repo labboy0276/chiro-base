@@ -1,5 +1,5 @@
 {
-    "name": "chiro",
+    "name": "chiro_base",
     "description": "Chiro Distribution",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
