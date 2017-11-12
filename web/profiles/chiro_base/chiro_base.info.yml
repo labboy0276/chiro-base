@@ -33,4 +33,5 @@ dependencies:
 
 themes:
   - adminimal_theme
+  - bootstrap
 

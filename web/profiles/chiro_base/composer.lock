@@ -4,8 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a15689c68037b2059e2c6853a2f0a10",
+    "content-hash": "43e49fcb6f00fe8c840219134ff51af0",
     "packages": [
+        {
+            "name": "chiro_bs_base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/labboy0276/chiro_bs_base",
+                "reference": "e40a91d356d927cfedf3a3fc9fdfe1991492dfce"
+            },
+            "type": "drupal-custom-theme",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "John Ouellet",
+                    "email": "labboy0276@yahoo.com"
+                }
+            ],
+            "description": "Chiro Bootstrap Base Subtheme",
+            "homepage": "https://github.com/labboy0276/chiro_bs_base",
+            "time": "2017-11-12 02:22:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.4.0",
