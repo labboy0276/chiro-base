@@ -10,8 +10,8 @@
  */
 function chiro_base_install_tasks(&$install_state) {
   $tasks = [
-    'chiro_base_admin_theme_setup' => [
-      'display_name' => t('Apply theme'),
+    'chiro_base_themes_setup' => [
+      'display_name' => t('Setup Admin & Default Themes'),
       'display' => TRUE,
     ],
   ];
@@ -19,12 +19,12 @@ function chiro_base_install_tasks(&$install_state) {
 }
 
 /**
- * Install the admin theme.
+ * Install the admin & default theme.
  *
  * @param array $install_state
  *   The install state.
  */
-function chiro_base_admin_theme_setup(array &$install_state) {
+function chiro_base_themes_setup(array &$install_state) {
   // Set the admin theme.
   \Drupal::configFactory()
     ->getEditable('system.theme')
@@ -35,5 +35,11 @@ function chiro_base_admin_theme_setup(array &$install_state) {
   \Drupal::configFactory()
   ->getEditable('node.settings')
   ->set('use_admin_theme', TRUE)
+  ->save();
+
+  // Set the default theme to chiro BS base for now.
+  \Drupal::configFactory()
+  ->getEditable('system.theme')
+  ->set('default', 'chiro_bs_base')
   ->save();
 }

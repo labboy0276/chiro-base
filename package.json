@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "license": "GPL-2.0",
   "scripts": {
-    "start": "npm run start:installcore && npm run start:installprofile",
+    "start": "npm run start:installcore && npm run start:installprofile && npm run start:setupprofiletheme",
     "start:installcore" : "npm i && composer install && composer drupal-scaffold",
     "start:installprofile" : "cd web/profiles/chiro_base && composer install",
+    "start:setupprofiletheme" : "cd web/profiles/chiro_base/themes/custom/chiro_bs_base && npm i && grunt",
     "predeploy": "npm start",
     "deploy": "npm run deploy:removegit",
-    "deploy:removegit": "find web/profiles/chiro_base/modules/contrib -type d -name '.git*' -exec rm -rf {} +"
+    "deploy:removegit": "find web/ -type d -name '.git*' -exec rm -rf {} +"
   },
   "repository": {
     "type": "git",

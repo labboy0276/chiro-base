@@ -4,30 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "43e49fcb6f00fe8c840219134ff51af0",
+    "content-hash": "9709a4581b517c406ddadac243e26129",
     "packages": [
-        {
-            "name": "chiro_bs_base",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/labboy0276/chiro_bs_base",
-                "reference": "e40a91d356d927cfedf3a3fc9fdfe1991492dfce"
-            },
-            "type": "drupal-custom-theme",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "John Ouellet",
-                    "email": "labboy0276@yahoo.com"
-                }
-            ],
-            "description": "Chiro Bootstrap Base Subtheme",
-            "homepage": "https://github.com/labboy0276/chiro_bs_base",
-            "time": "2017-11-12 02:22:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.4.0",
@@ -586,6 +564,50 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/paragraphs"
             }
+        },
+        {
+            "name": "labboy0276/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/labboy0276/bootstrap",
+                "reference": "e9218a0b57ab0b1f8adc7301e03d36c04cda1054"
+            },
+            "type": "drupal-library",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "John Ouellet",
+                    "email": "labboy0276@yahoo.com"
+                }
+            ],
+            "description": "Bootstrap 3.3.7",
+            "homepage": "https://github.com/labboy0276/bootstrap",
+            "time": "2017-11-12 03:25:24"
+        },
+        {
+            "name": "labboy0276/chiro_bs_base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/labboy0276/chiro_bs_base",
+                "reference": "872ad4b85098a0efc64e629b01954e9da1bee46c"
+            },
+            "type": "drupal-custom-theme",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "John Ouellet",
+                    "email": "labboy0276@yahoo.com"
+                }
+            ],
+            "description": "Chiro Bootstrap Base Subtheme",
+            "homepage": "https://github.com/labboy0276/chiro_bs_base",
+            "time": "2017-11-12 03:23:33"
         }
     ],
     "packages-dev": [],

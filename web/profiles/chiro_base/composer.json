@@ -19,6 +19,10 @@
         {
             "type": "git",
             "url": "https://github.com/labboy0276/chiro_bs_base"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/labboy0276/bootstrap"
         }
     ],
     "extra": {
@@ -37,7 +41,8 @@
         "drupal/adminimal_theme": "^1.3",
         "drupal/paragraphs": "^1.2",
         "drupal/bootstrap": "^3.6",
-        "chiro_bs_base": "master"
+        "labboy0276/chiro_bs_base": "master",
+        "labboy0276/bootstrap": "master"
     },
     "replace": {
         "drupal/core": "*"
