@@ -18,11 +18,12 @@ function chiro_base_install() {
   $sync_directory = '../config/sync';
 
   // Update settings.php.
-  // $settings['config_directories']['sync'] = (object) [
-  //   'value' => $sync_directory,
-  //   'required' => TRUE,
-  // ];
+  $settings['config_directories']['sync'] = (object) [
+    'value' => $sync_directory,
+    'required' => TRUE,
+  ];
 
-  // drupal_rewrite_settings($settings);
+  // Rewrite this so it changes it on install.
+  drupal_rewrite_settings($settings);
   $config_directories['sync'] = $sync_directory;
 }
