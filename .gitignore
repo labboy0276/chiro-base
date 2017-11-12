@@ -23,9 +23,6 @@
 # Node Modules
 /node_modules/
 
-# Composer (issues with drupal scaffold)
-composer.lock
-
 # Ignore files built out by Drupal Scaffold.
 /web/.csslintrc
 /web/.editorconfig

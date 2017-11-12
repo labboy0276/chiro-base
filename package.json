@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "license": "GPL-2.0",
   "scripts": {
-    "start": "npm i && composer install && cd web/profiles/chiro_base && composer install",
+    "start": "npm run start:installcore && npm run start:installprofile",
+    "start:installcore" : "npm i && composer install && composer drupal-scaffold",
+    "start:installprofile" : "cd web/profiles/chiro_base && composer install",
     "predeploy": "npm start",
     "deploy": "npm run deploy:removegit",
     "deploy:removegit": "find web/profiles/chiro_base/modules/contrib -type d -name '.git*' -exec rm -rf {} +"
