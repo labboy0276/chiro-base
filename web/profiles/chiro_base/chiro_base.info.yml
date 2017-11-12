@@ -34,4 +34,5 @@ dependencies:
 themes:
   - adminimal_theme
   - bootstrap
+  - chiro_bs_base
 
