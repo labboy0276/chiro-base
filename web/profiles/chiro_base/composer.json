@@ -42,7 +42,11 @@
         "drupal/paragraphs": "^1.2",
         "drupal/bootstrap": "^3.6",
         "labboy0276/chiro_bs_base": "master",
-        "labboy0276/bootstrap": "master"
+        "labboy0276/bootstrap": "master",
+        "drupal/ctools": "^3.0",
+        "drupal/token": "^1.0",
+        "drupal/pathauto": "^1.0",
+        "drupal/redirect": "^1.0@beta"
     },
     "replace": {
         "drupal/core": "*"
