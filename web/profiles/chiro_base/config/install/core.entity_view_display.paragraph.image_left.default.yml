@@ -6,13 +6,13 @@ dependencies:
     - field.field.paragraph.image_left.field_paragraph_text
     - paragraphs.paragraphs_type.image_left
   module:
+    - chiro_bs_base
     - field_layout
     - image
-    - layout_discovery
     - text
 third_party_settings:
   field_layout:
-    id: layout_onecol
+    id: image_left
     settings: {  }
 id: paragraph.image_left.default
 targetEntityType: paragraph
@@ -21,18 +21,18 @@ mode: default
 content:
   field_paragraph_image:
     weight: 0
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
     type: image
-    region: content
+    region: image
   field_paragraph_text:
+    type: text_default
     weight: 1
-    label: above
+    region: text
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
-    region: content
 hidden: {  }
