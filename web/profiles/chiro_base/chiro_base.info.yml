@@ -23,6 +23,7 @@ dependencies:
   - image
   - layout_discovery
   - link
+  - metatag
   - menu_ui
   - node
   - options
@@ -30,6 +31,7 @@ dependencies:
   - path
   - pathauto
   - redirect
+  - schema_metatag
   - token
   - toolbar
   - views
