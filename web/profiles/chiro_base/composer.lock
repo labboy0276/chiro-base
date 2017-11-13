@@ -593,7 +593,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/labboy0276/chiro_bs_base",
-                "reference": "872ad4b85098a0efc64e629b01954e9da1bee46c"
+                "reference": "7e5ea556818cde0a4ead6baf217b6cd00e96ea63"
             },
             "type": "drupal-custom-theme",
             "license": [
@@ -607,7 +607,7 @@
             ],
             "description": "Chiro Bootstrap Base Subtheme",
             "homepage": "https://github.com/labboy0276/chiro_bs_base",
-            "time": "2017-11-12 03:23:33"
+            "time": "2017-11-13 00:12:26"
         }
     ],
     "packages-dev": [],
